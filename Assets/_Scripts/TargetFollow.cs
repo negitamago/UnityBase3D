@@ -2,19 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TargetFollow : MonoBehaviour
+namespace Negitama.UnityBase3D
 {
-    [SerializeField] Transform target;
-
-    private Vector3 offset;
-
-    private void Start ()
+    public class TargetFollow : MonoBehaviour
     {
-        offset = this.transform.position - target.position;
-    }
+        [SerializeField] Transform target;
 
-    private void LateUpdate ()
-    {
-        this.transform.position = target.position + offset;
+        private Vector3 offset;
+
+        private void Start ()
+        {
+            offset = this.transform.position - target.position;
+        }
+
+        private void LateUpdate ()
+        {
+            this.transform.position = target.position + offset;
+        }
     }
 }
