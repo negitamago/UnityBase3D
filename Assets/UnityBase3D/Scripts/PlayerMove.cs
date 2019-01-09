@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Negitama.UnityBase3D
+namespace negitama.UnityBase3D
 {
     public class PlayerMove : MonoBehaviour
     {
