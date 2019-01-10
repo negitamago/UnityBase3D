@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5915562463903382309}
   - component: {fileID: 5915562463903382313}
   - component: {fileID: 5915562463903382318}
+  - component: {fileID: 1413512909}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -123,3 +124,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+--- !u!114 &1413512909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5915562463903382308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94687fad9f13be34bb06da0189d00a18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupTag: Pickup
+  score: 0
