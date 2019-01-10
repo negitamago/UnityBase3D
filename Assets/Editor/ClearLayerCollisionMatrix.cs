@@ -7,6 +7,7 @@ namespace negitama.UnityBase3D
 {
     /// <summary>
     /// [エディター拡張] Layer Collision Matrix のチェックをすべてクリアする (Physics / Physics2D)
+    /// 解説記事　http://negi-lab.blog.jp/archives/clear_layerCollisionMatrix.html
     /// </summary>
     public class ClearLayerCollisionMatrix : MonoBehaviour
     {
