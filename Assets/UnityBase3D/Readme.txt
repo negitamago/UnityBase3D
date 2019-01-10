@@ -1,5 +1,5 @@
 UnityBase3D
-version 1.23
+version 1.24
 
 ■ 利用方法
 Unityエディターでパッケージをインポートしたら、DEMOシーンを開きます。
