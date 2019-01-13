@@ -1,16 +1,22 @@
-UnityBase3D
-version 1.25
+UnityBase3D / Ver 1.252
+======================= 
+Created by Negitama
 
-■ 利用方法
-Unityエディターでパッケージをインポートしたら、DEMOシーンを開きます。
-基本的なセットアップがされた状態で開発を開始できます。
+For quick setup Unity 3D project.
 
-DEMOシーンでは、LayerCollisionMatrix が必要なもの以外すべてクリアされています。
-衝突検知する処理を追加したい場合、Edit > Project Settings > Physics 内の
-LayerCollisionMatrixを適切に設定してください。
+GitHub
+https://github.com/negitamago/UnityBase3D
 
-■ バージョン履歴
-https://github.com/negitamago/UnityBase3D/releases
+Version History - https://github.com/negitamago/UnityBase3D/releases
 
-■ ライセンス
+Description - http://negi-lab.blog.jp/UnityBase3D (Japanese)
+
+Support
+Blog - http://negi-lab.blog.jp/ (Japanese)
+Twitter - https://twitter.com/onionslice2 (Japanese)
+
+-----------------------
+Licenses
+Copyright (c) 2019 Negitama
+This library is under the MIT License. 
 https://github.com/negitamago/UnityBase3D/blob/master/LICENSE
