@@ -1,9 +1,9 @@
 {
-"companyName": "DefaultCompany",
+"companyName": "Negitama",
 "productName": "UnityBase3D",
-"dataUrl": "BuildForWebGL.data.unityweb",
-"wasmCodeUrl": "BuildForWebGL.wasm.code.unityweb",
-"wasmFrameworkUrl": "BuildForWebGL.wasm.framework.unityweb",
+"dataUrl": "docs.data.unityweb",
+"wasmCodeUrl": "docs.wasm.code.unityweb",
+"wasmFrameworkUrl": "docs.wasm.framework.unityweb",
 "TOTAL_MEMORY": 268435456,
 "graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
 "webglContextAttributes": {"preserveDrawingBuffer": false},
