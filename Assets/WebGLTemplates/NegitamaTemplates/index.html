@@ -10,17 +10,12 @@
     <link rel="stylesheet" href="TemplateData/style.css">
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="TemplateData/jquery-3.3.1.min.js"></script>
-
     <script src="%UNITY_WEBGL_LOADER_URL%"></script>
-
-    <!--
-    <script> var gameInstance = UnityLoader.instantiate("gameContainer", "%UNITY_WEBGL_BUILD_URL%");</script>
-    -->
 
 	<script>
 		// WebGLファイルのインスタンス作成（ダウンロード）処理
         var gameInstance;
-		function loadWebgl() {
+		function LoadWebGL() {
             $(".fullscreen").show();
 			gameInstance = UnityLoader.instantiate("gameContainer", "%UNITY_WEBGL_BUILD_URL%", {
 				onProgress: UnityProgress
@@ -31,15 +26,14 @@
   </head>
   <body>
     <div class="webgl-content">
-      <!-- <div id="gameContainer"> -->
       <div id="gameContainer" style="width: 640px; height: 360px">
-        <!-- クリックで関数 loadWebgl() の実行。-->
-		<input type=image onclick="loadWebgl();" src="TemplateData/ClickToPlay_640x360.png">
+        <!-- クリックで関数 LoadWebGL() の実行。-->
+		<input type=image onclick="LoadWebGL();" src="TemplateData/ClickToPlay_640x360.png">
       </div>
       <div class="footer">
         <div class="webgl-logo"></div>
         <div class="fullscreen" style="display: none;" onclick="gameInstance.SetFullscreen(1)"></div>
-        <div class="title">UnityBase3D</div>
+        <div class="title">%UNITY_WEB_NAME%</div>
       </div>
     </div>
   </body>
